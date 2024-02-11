@@ -29,11 +29,11 @@ body {
   min-height: 100vh;
 }
 
-h1 {
+/*h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
-
+*/
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -51,6 +51,19 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+.card {
+  width: 400px;
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 50px auto;
+  background: skyblue;
+}
+
+.card-back{
+  background: teal;
 }
 
 @media (prefers-color-scheme: light) {
